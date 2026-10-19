@@ -1,0 +1,28 @@
+{
+  "n_images_per_condition": 400,
+  "baseline_direct_28x28_accuracy": 0.9925,
+  "conditions": {
+    "light_on_dark": {
+      "description": "White digit on black background, large PNG",
+      "accuracy": 0.9925,
+      "rejected_images": 0
+    },
+    "dark_on_light": {
+      "description": "Black digit on white background, large PNG",
+      "accuracy": 0.9925,
+      "rejected_images": 0
+    },
+    "noisy_offset_jpeg": {
+      "description": "Off-centre, grey paper, Gaussian noise, JPEG compression",
+      "accuracy": 0.9925,
+      "rejected_images": 0
+    },
+    "transparent_png": {
+      "description": "Black digit on a transparent PNG background",
+      "accuracy": 0.9925,
+      "rejected_images": 0
+    }
+  },
+  "note": "Synthetic stress test built from validation-set MNIST digits. It verifies the preprocessing pipeline, not real-world photo accuracy.",
+  "generated_at": "2026-10-19T09:34:53"
+}

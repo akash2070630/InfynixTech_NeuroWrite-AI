@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+# raw MNIST archives are downloaded automatically (about 11 MB)
+data/
+# keep trained artefacts out of git if you prefer; remove these lines to commit them
+# models/
+# outputs/
